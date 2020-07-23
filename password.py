@@ -16,7 +16,7 @@ while True:
 		break
 	elif menu.lower() == "p":
 		try:
-			user_choice = int(input("\nEnter Password Character Lenght: "))
+			user_choice = int(input("\nEnter Password Character Length: "))
 
 			strong_password(user_choice)
 			print("\nOther password options:")
